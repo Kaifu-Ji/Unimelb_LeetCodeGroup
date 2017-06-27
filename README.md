@@ -6,3 +6,5 @@
 [D3 100. Same Tree](https://leetcode.com/problems/same-tree/#/description)
 
 [D4 404 Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/#/description)
+
+[D5 501 Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/#/solutions)
