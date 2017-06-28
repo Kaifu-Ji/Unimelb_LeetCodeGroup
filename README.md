@@ -10,4 +10,5 @@
 [D5 501 Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/#/solutions)
 
 [D6 22. Generate Parentheses] (https://leetcode.com/problems/generate-parentheses/#/description)
+
 一个我觉得还不错的[题解](http://www.mamicode.com/info-detail-1064376.html)，想不出来可以参考 
