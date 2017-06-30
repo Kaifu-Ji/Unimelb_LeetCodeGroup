@@ -3,7 +3,7 @@
  * function TreeNode(val) {
  *     this.val = val;
  *     this.left = this.right = null;
- * }
+ }
  */
 /**
  * @param {TreeNode} root
@@ -11,21 +11,26 @@
  */
 const freq = {};
 
-const find = function(root) {
+function TreeNode(val) {
+    this.val = val;
+    this.left = this.right = null;
+}
+
+const find = function (root) {
     if (!root) return;
     const {val} = root;
-    
+
     if (!freq[val]) {
         freq[val] = 1;
     } else {
         freq[val] = freq[val] + 1;
     }
-    
+
     find(root.left);
     find(root.right);
 }
 
-const getMaxKey = function(obj) {
+const getMaxKey = function (obj) {
     let max = Number.MIN_SAFE_INTEGER;
     let maxKey = [];
     Object.entries(obj).forEach(entry => {
@@ -36,11 +41,14 @@ const getMaxKey = function(obj) {
             maxKey.push(entry[0]);
         }
     });
-    
+
     return maxKey.map(key => +key);
 }
 
-var findMode = function(root) {
+var findMode = function (root) {
     find(root);
     return getMaxKey(freq);
 };
+
+a = new TreeNode(10);
+findMode(a)

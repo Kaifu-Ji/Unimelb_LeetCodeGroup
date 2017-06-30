@@ -11,4 +11,5 @@
 
 [D6 22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/#/description)
 
-一个我觉得还不错的[题解](http://www.mamicode.com/info-detail-1064376.html)，想不出来可以参考 
+一个我觉得还不错的[题解](http://www.mamicode.com/info-detail-1064376.html)，想不出来可以参考
+[D7 538. Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/#/description)
