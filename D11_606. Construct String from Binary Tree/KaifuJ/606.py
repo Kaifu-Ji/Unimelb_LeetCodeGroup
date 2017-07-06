@@ -5,6 +5,7 @@
 #         self.left = None
 #         self.right = None
 
+
 class Solution(object):
     def tree2str(self, t):
         """
@@ -14,13 +15,6 @@ class Solution(object):
         if not t:
             return ""
         else:
-            tl = self.tree2str(t.left)
-            tr = self.tree2str(t.right)
-            if tr != "":
-                return "{0}({1})({2})".format(t.val,tl,tr)
-            if tr == "":
-                if tl != "":
-                    return "{0}({1})".format(t.val,tl)
-                else:
-                    return "{0}".format(t.val)
-
+            left = "({})".format(self.tree2str(t.left)) if t.left or t.right else ''
+            right = "({})".format(self.tree2str(t.right)) if t.right else ''
+            return str(t.val) + left + right
