@@ -24,3 +24,5 @@
 [D11 606. Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/#/description)
 
 [D12 121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/#/description)
+
+[D13 526. Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/#/description)
